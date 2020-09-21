@@ -1,0 +1,17 @@
+{
+  "name": "Semantic_Versioning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.7"  // Major.Minor.Patch
+                              // "^" No Major Updates. Minor or patch updates (e.g. 2.x.x);
+                              // "~" No Major Updates Or Minor Updates. Only Patch Updates (e.g. 2.27.x);
+  }                           // " " No Updates At All.
+}
